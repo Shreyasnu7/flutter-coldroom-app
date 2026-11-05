@@ -1,0 +1,60 @@
+{
+ "from": 1793039354.1931372,
+ "to": 1793125754.1931372,
+ "devices": [
+  {
+   "id": "fridge-kitchen",
+   "name": "Kitchen fridge",
+   "limit": "0.0 to 5.0 \u00b0C",
+   "readings": 1440,
+   "in_range_pct": 97.2,
+   "min": 2.15,
+   "max": 6.94,
+   "alerts": []
+  },
+  {
+   "id": "fridge-display",
+   "name": "Display fridge",
+   "limit": "0.0 to 5.0 \u00b0C",
+   "readings": 1440,
+   "in_range_pct": 94.7,
+   "min": 2.07,
+   "max": 11.5,
+   "alerts": [
+    {
+     "kind": "temperature",
+     "started": 1793090654.1931372,
+     "ended": 1793093234.1931372,
+     "peak": 11.5
+    }
+   ]
+  },
+  {
+   "id": "freezer",
+   "name": "Chest freezer",
+   "limit": "-30.0 to -15.0 \u00b0C",
+   "readings": 1440,
+   "in_range_pct": 99.7,
+   "min": -20.21,
+   "max": -14.61,
+   "alerts": []
+  },
+  {
+   "id": "coolroom",
+   "name": "Cool room",
+   "limit": "0.0 to 5.0 \u00b0C",
+   "readings": 1111,
+   "in_range_pct": 96.1,
+   "min": 2.14,
+   "max": 6.82,
+   "alerts": [
+    {
+     "kind": "offline",
+     "started": 1793105954.1931372,
+     "ended": null,
+     "peak": 0.0
+    }
+   ]
+  }
+ ]
+}
